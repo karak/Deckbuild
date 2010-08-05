@@ -8,6 +8,8 @@ Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Deckbuild.Dsl.Test", "Deckb
 EndProject
 Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Deckbuild.Dsl.Ast", "Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj", "{F630FE10-4E78-48EA-808A-1E95EE425337}"
 EndProject
+Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "TinyDominion", "TinyDominion\TinyDominion.booproj", "{5F4EF244-B486-4898-BC44-3FA4858B0C50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -26,5 +28,9 @@ Global
 		{F630FE10-4E78-48EA-808A-1E95EE425337}.Debug|x86.ActiveCfg = Debug|x86
 		{F630FE10-4E78-48EA-808A-1E95EE425337}.Release|x86.Build.0 = Release|x86
 		{F630FE10-4E78-48EA-808A-1E95EE425337}.Release|x86.ActiveCfg = Release|x86
+		{5F4EF244-B486-4898-BC44-3FA4858B0C50}.Debug|x86.Build.0 = Debug|x86
+		{5F4EF244-B486-4898-BC44-3FA4858B0C50}.Debug|x86.ActiveCfg = Debug|x86
+		{5F4EF244-B486-4898-BC44-3FA4858B0C50}.Release|x86.Build.0 = Release|x86
+		{5F4EF244-B486-4898-BC44-3FA4858B0C50}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
