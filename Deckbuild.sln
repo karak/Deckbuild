@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# SharpDevelop 3.2.0.5505
+Project("{982E8BC1-ACD7-4dbf-96AB-B2CE67D6A008}") = "Deckbuild.Dsl", "Deckbuild.Dsl\Deckbuild.Dsl.fsproj", "{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}"
+EndProject
+Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Deckbuild.Dsl.Test", "Deckbuild.Dsl.Test\Deckbuild.Dsl.Test.booproj", "{F739CF25-9495-4A77-A70F-C834D32B8DE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}.Debug|x86.Build.0 = Debug|x86
+		{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}.Debug|x86.ActiveCfg = Debug|x86
+		{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}.Release|x86.Build.0 = Release|x86
+		{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}.Release|x86.ActiveCfg = Release|x86
+		{F739CF25-9495-4A77-A70F-C834D32B8DE0}.Debug|x86.Build.0 = Debug|x86
+		{F739CF25-9495-4A77-A70F-C834D32B8DE0}.Debug|x86.ActiveCfg = Debug|x86
+		{F739CF25-9495-4A77-A70F-C834D32B8DE0}.Release|x86.Build.0 = Release|x86
+		{F739CF25-9495-4A77-A70F-C834D32B8DE0}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal
