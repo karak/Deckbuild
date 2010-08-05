@@ -6,6 +6,8 @@ Project("{982E8BC1-ACD7-4dbf-96AB-B2CE67D6A008}") = "Deckbuild.Dsl", "Deckbuild.
 EndProject
 Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Deckbuild.Dsl.Test", "Deckbuild.Dsl.Test\Deckbuild.Dsl.Test.booproj", "{F739CF25-9495-4A77-A70F-C834D32B8DE0}"
 EndProject
+Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Deckbuild.Dsl.Ast", "Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj", "{F630FE10-4E78-48EA-808A-1E95EE425337}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -20,5 +22,9 @@ Global
 		{F739CF25-9495-4A77-A70F-C834D32B8DE0}.Debug|x86.ActiveCfg = Debug|x86
 		{F739CF25-9495-4A77-A70F-C834D32B8DE0}.Release|x86.Build.0 = Release|x86
 		{F739CF25-9495-4A77-A70F-C834D32B8DE0}.Release|x86.ActiveCfg = Release|x86
+		{F630FE10-4E78-48EA-808A-1E95EE425337}.Debug|x86.Build.0 = Debug|x86
+		{F630FE10-4E78-48EA-808A-1E95EE425337}.Debug|x86.ActiveCfg = Debug|x86
+		{F630FE10-4E78-48EA-808A-1E95EE425337}.Release|x86.Build.0 = Release|x86
+		{F630FE10-4E78-48EA-808A-1E95EE425337}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

@@ -1,11 +1,11 @@
 ﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{F739CF25-9495-4A77-A70F-C834D32B8DE0}</ProjectGuid>
+    <ProjectGuid>{F630FE10-4E78-48EA-808A-1E95EE425337}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>Deckbuild.Dsl.Test</RootNamespace>
-    <AssemblyName>Deckbuild.Dsl.Test</AssemblyName>
+    <RootNamespace>Deckbuild.Dsl.Ast</RootNamespace>
+    <AssemblyName>Deckbuild.Dsl.Ast</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
@@ -27,11 +27,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Boo.Lang.Useful" />
-    <Reference Include="FSharp.Core" />
-    <Reference Include="nunit.framework" />
-    <Reference Include="Rhino.Mocks">
-      <HintPath>..\lib\Rhino.Mocks-3.6\Rhino.Mocks.dll</HintPath>
-    </Reference>
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -44,18 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.boo" />
-    <Compile Include="CardDefinitionHeaderTest.boo" />
-    <Compile Include="IdentifierTest.boo" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj">
-      <Project>{F630FE10-4E78-48EA-808A-1E95EE425337}</Project>
-      <Name>Deckbuild.Dsl.Ast</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Deckbuild.Dsl\Deckbuild.Dsl.fsproj">
-      <Project>{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}</Project>
-      <Name>Deckbuild.Dsl</Name>
-    </ProjectReference>
+    <Compile Include="Ast.boo" />
   </ItemGroup>
   <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />
 </Project>

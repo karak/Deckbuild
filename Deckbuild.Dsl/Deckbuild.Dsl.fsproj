@@ -35,4 +35,10 @@
       <HintPath>..\lib\FParsec-0.8\FParsecCS.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj">
+      <Project>{F630FE10-4E78-48EA-808A-1E95EE425337}</Project>
+      <Name>Deckbuild.Dsl.Ast</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
