@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.boo" />
+    <Compile Include="AstFactory.boo" />
     <Compile Include="CardDefinitionHeaderTest.boo" />
     <Compile Include="CardDefinitionTest.boo" />
     <Compile Include="PropertyDefinitionTest.boo" />
