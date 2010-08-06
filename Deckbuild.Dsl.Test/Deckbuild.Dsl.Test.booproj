@@ -45,12 +45,12 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.boo" />
     <Compile Include="AstFactory.boo" />
-    <Compile Include="BehaviorDefinitionTest.boo" />
-    <Compile Include="CardDefinitionBodyTest.boo" />
-    <Compile Include="CardDefinitionHeaderTest.boo" />
-    <Compile Include="CardDefinitionTest.boo" />
-    <Compile Include="PropertyDefinitionTest.boo" />
-    <Compile Include="IdentifierTest.boo" />
+    <Compile Include="Parser\BehaviorDefinitionTest.boo" />
+    <Compile Include="Parser\CardDefinitionBodyTest.boo" />
+    <Compile Include="Parser\CardDefinitionHeaderTest.boo" />
+    <Compile Include="Parser\CardDefinitionTest.boo" />
+    <Compile Include="Parser\IdentifierTest.boo" />
+    <Compile Include="Parser\PropertyDefinitionTest.boo" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj">
@@ -61,6 +61,7 @@
       <Project>{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}</Project>
       <Name>Deckbuild.Dsl</Name>
     </ProjectReference>
+    <Folder Include="Parser" />
   </ItemGroup>
   <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />
 </Project>
