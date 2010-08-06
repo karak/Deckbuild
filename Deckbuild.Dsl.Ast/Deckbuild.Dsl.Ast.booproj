@@ -41,6 +41,7 @@
     <Compile Include="ActionExpr.boo" />
     <Compile Include="AssemblyInfo.boo" />
     <Compile Include="Ast.boo" />
+    <Compile Include="Visitors.boo" />
   </ItemGroup>
   <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />
 </Project>
