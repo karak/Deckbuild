@@ -10,7 +10,7 @@ Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Deckbuild.Dsl.Ast", "Deckbu
 EndProject
 Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "TinyDominion", "TinyDominion\TinyDominion.booproj", "{5F4EF244-B486-4898-BC44-3FA4858B0C50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deckbuild.Framework", "TinyDominion.Engine\Deckbuild.Framework.csproj", "{714FE1BE-0843-4125-BDF0-FF57980B8879}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deckbuild.Framework", "Deckbuild.Framework\Deckbuild.Framework.csproj", "{714FE1BE-0843-4125-BDF0-FF57980B8879}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
