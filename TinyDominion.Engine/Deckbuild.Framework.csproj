@@ -1,13 +1,13 @@
 ﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{5F4EF244-B486-4898-BC44-3FA4858B0C50}</ProjectGuid>
+    <ProjectGuid>{714FE1BE-0843-4125-BDF0-FF57980B8879}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>TinyDominion</RootNamespace>
-    <AssemblyName>TinyDominion</AssemblyName>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Deckbuild.Dsl.Engine</RootNamespace>
+    <AssemblyName>Deckbuild.Framework</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\yasushi\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -17,6 +17,7 @@
     <DebugSymbols>True</DebugSymbols>
     <DebugType>Full</DebugType>
     <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -24,27 +25,27 @@
     <DebugSymbols>False</DebugSymbols>
     <DebugType>None</DebugType>
     <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
-    <Reference Include="Boo.Lang.Useful" />
+    <Reference Include="FSharp.Core" />
+    <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyInfo.boo" />
-    <Compile Include="Program.boo" />
-    <None Include="scripts\all.dbc" />
+    <Compile Include="Configure.cs" />
+    <Compile Include="SemanticBinder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="scripts" />
     <ProjectReference Include="..\Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj">
       <Project>{F630FE10-4E78-48EA-808A-1E95EE425337}</Project>
       <Name>Deckbuild.Dsl.Ast</Name>
@@ -53,10 +54,5 @@
       <Project>{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}</Project>
       <Name>Deckbuild.Dsl</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TinyDominion.Engine\Deckbuild.Framework.csproj">
-      <Project>{714FE1BE-0843-4125-BDF0-FF57980B8879}</Project>
-      <Name>Deckbuild.Framework</Name>
-    </ProjectReference>
   </ItemGroup>
-  <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />
 </Project>
