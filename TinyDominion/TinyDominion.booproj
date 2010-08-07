@@ -39,7 +39,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.boo" />
+    <Compile Include="Card.boo" />
+    <Compile Include="Direction.boo" />
+    <Compile Include="Glossary.boo" />
     <Compile Include="Program.boo" />
+    <Compile Include="Semantics.boo" />
     <None Include="scripts\all.dbc" />
   </ItemGroup>
   <ItemGroup>
