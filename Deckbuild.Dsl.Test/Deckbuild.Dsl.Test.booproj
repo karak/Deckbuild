@@ -53,6 +53,7 @@
     <Compile Include="Parser\CardDefinitionTest.boo" />
     <Compile Include="Parser\IdentifierTest.boo" />
     <Compile Include="Parser\PropertyDefinitionTest.boo" />
+    <Compile Include="Parser\UserDefinedActionExprTest.boo" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj">
