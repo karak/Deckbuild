@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.boo" />
     <Compile Include="AstFactory.boo" />
+    <Compile Include="Parser\ActionOperatorTest.boo" />
     <Compile Include="Parser\BehaviorDefinitionTest.boo" />
     <Compile Include="Parser\AvailableOpLetterTest.boo" />
     <Compile Include="Parser\CardDefinitionBodyTest.boo" />
