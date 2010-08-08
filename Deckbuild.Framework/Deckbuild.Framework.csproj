@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configure.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="Glossary.cs" />
     <Compile Include="Repository.cs" />
-    <Compile Include="GlossaryBuilder.cs" />
+    <Compile Include="GlossaryBinder.cs" />
     <Compile Include="SemanticBinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
