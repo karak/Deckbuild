@@ -1,11 +1,11 @@
 ﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{F630FE10-4E78-48EA-808A-1E95EE425337}</ProjectGuid>
+    <ProjectGuid>{D9788E19-624C-4839-99BA-B7F5B648D8A0}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>Deckbuild.Dsl.Ast</RootNamespace>
-    <AssemblyName>Deckbuild.Dsl.Ast</AssemblyName>
+    <RootNamespace>Deckbuild.Dsl.Utility</RootNamespace>
+    <AssemblyName>Deckbuild.Dsl.Utility</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
@@ -26,6 +26,10 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Boo.Lang.Compiler">
+      <HintPath>C:\Program Files\SharpDevelop\3.0\AddIns\AddIns\BackendBindings\BooBinding\Boo.Lang.Compiler.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang.Useful" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -37,16 +41,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionExpr.boo" />
     <Compile Include="AssemblyInfo.boo" />
-    <Compile Include="Ast.boo" />
-    <Compile Include="Visitors.boo" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Deckbuild.Dsl.Utility\Deckbuild.Dsl.Utility.booproj">
-      <Project>{D9788E19-624C-4839-99BA-B7F5B648D8A0}</Project>
-      <Name>Deckbuild.Dsl.Utility</Name>
-    </ProjectReference>
+    <Compile Include="MemberwiseEquatableAttribute.boo" />
   </ItemGroup>
   <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />
 </Project>
