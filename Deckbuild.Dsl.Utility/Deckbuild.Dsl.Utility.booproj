@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.boo" />
+    <Compile Include="AstManipulation.boo" />
     <Compile Include="MemberwiseEquatableAttribute.boo" />
+    <Compile Include="PrettyPrintable.boo" />
   </ItemGroup>
   <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />
 </Project>
