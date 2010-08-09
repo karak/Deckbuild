@@ -40,6 +40,7 @@
     <Compile Include="ActionExpr.boo" />
     <Compile Include="AssemblyInfo.boo" />
     <Compile Include="Ast.boo" />
+    <Compile Include="CustomList.boo" />
     <Compile Include="Visitors.boo" />
   </ItemGroup>
   <ItemGroup>
