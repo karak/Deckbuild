@@ -1,13 +1,12 @@
 ﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{5F4EF244-B486-4898-BC44-3FA4858B0C50}</ProjectGuid>
+    <ProjectGuid>{0E6B8520-3809-4904-B0E7-C6A152359542}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>TinyDominion</RootNamespace>
-    <AssemblyName>TinyDominion</AssemblyName>
+    <RootNamespace>TinyDominion.Test</RootNamespace>
+    <AssemblyName>TinyDominion.Test</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\yasushi\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -28,6 +27,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Boo.Lang.Useful" />
+    <Reference Include="nunit.framework" />
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\lib\Rhino.Mocks-3.6\Rhino.Mocks.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -40,26 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.boo" />
-    <Compile Include="Card.boo" />
-    <Compile Include="Direction.boo" />
-    <Compile Include="Glossary.boo" />
-    <Compile Include="Program.boo" />
-    <Compile Include="Semantics.boo" />
-    <None Include="scripts\all.dbc" />
+    <Compile Include="CardTest.boo" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="scripts" />
-    <ProjectReference Include="..\Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj">
-      <Project>{F630FE10-4E78-48EA-808A-1E95EE425337}</Project>
-      <Name>Deckbuild.Dsl.Ast</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Deckbuild.Dsl\Deckbuild.Dsl.fsproj">
-      <Project>{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}</Project>
-      <Name>Deckbuild.Dsl</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Deckbuild.Framework\Deckbuild.Framework.csproj">
-      <Project>{714FE1BE-0843-4125-BDF0-FF57980B8879}</Project>
-      <Name>Deckbuild.Framework</Name>
+    <ProjectReference Include="..\TinyDominion\TinyDominion.booproj">
+      <Project>{5F4EF244-B486-4898-BC44-3FA4858B0C50}</Project>
+      <Name>TinyDominion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />

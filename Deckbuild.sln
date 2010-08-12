@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deckbuild.Framework", "Deck
 EndProject
 Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Deckbuild.Dsl.Utility", "Deckbuild.Dsl.Utility\Deckbuild.Dsl.Utility.booproj", "{D9788E19-624C-4839-99BA-B7F5B648D8A0}"
 EndProject
+Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "TinyDominion.Test", "TinyDominion.Test\TinyDominion.Test.booproj", "{0E6B8520-3809-4904-B0E7-C6A152359542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -44,6 +46,10 @@ Global
 		{D9788E19-624C-4839-99BA-B7F5B648D8A0}.Debug|x86.ActiveCfg = Debug|x86
 		{D9788E19-624C-4839-99BA-B7F5B648D8A0}.Release|x86.Build.0 = Release|x86
 		{D9788E19-624C-4839-99BA-B7F5B648D8A0}.Release|x86.ActiveCfg = Release|x86
+		{0E6B8520-3809-4904-B0E7-C6A152359542}.Debug|x86.Build.0 = Debug|x86
+		{0E6B8520-3809-4904-B0E7-C6A152359542}.Debug|x86.ActiveCfg = Debug|x86
+		{0E6B8520-3809-4904-B0E7-C6A152359542}.Release|x86.Build.0 = Release|x86
+		{0E6B8520-3809-4904-B0E7-C6A152359542}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
