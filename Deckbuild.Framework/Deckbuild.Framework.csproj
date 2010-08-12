@@ -46,7 +46,6 @@
     <Compile Include="Engine.cs" />
     <Compile Include="Glossary.cs" />
     <Compile Include="Repository.cs" />
-    <Compile Include="GlossaryBinder.cs" />
     <Compile Include="SemanticBinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
