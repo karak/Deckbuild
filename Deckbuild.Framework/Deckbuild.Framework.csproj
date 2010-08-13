@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="AbstractDslFactory.cs" />
     <Compile Include="Duck.cs" />
-    <Compile Include="Engine.cs" />
     <Compile Include="Glossary.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="SemanticBinder.cs" />

@@ -44,7 +44,11 @@
     <Compile Include="Direction.boo" />
     <Compile Include="DslContext.boo" />
     <Compile Include="DslFactory.boo" />
-    <None Include="scripts\all.dbc" />
+    <None Include="scripts\copper.dbc" />
+    <None Include="scripts\estate.dbc" />
+    <None Include="scripts\remodel.dbc" />
+    <None Include="scripts\smithy.dbc" />
+    <None Include="scripts\village.dbc" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="scripts" />
