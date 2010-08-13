@@ -49,6 +49,8 @@
     <None Include="scripts\remodel.dbc" />
     <None Include="scripts\smithy.dbc" />
     <None Include="scripts\village.dbc" />
+    <None Include="scripts\gold.dbc" />
+    <None Include="scripts\silver.dbc" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="scripts" />
