@@ -52,14 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="scripts" />
-    <ProjectReference Include="..\Deckbuild.Dsl.Ast\Deckbuild.Dsl.Ast.booproj">
-      <Project>{F630FE10-4E78-48EA-808A-1E95EE425337}</Project>
-      <Name>Deckbuild.Dsl.Ast</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Deckbuild.Dsl\Deckbuild.Dsl.fsproj">
-      <Project>{6BB2EB9B-DBA0-40E7-843A-F2632D6BA94C}</Project>
-      <Name>Deckbuild.Dsl</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Deckbuild.Framework\Deckbuild.Framework.csproj">
       <Project>{714FE1BE-0843-4125-BDF0-FF57980B8879}</Project>
       <Name>Deckbuild.Framework</Name>
