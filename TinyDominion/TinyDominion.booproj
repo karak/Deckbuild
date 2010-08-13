@@ -44,6 +44,7 @@
     <Compile Include="Direction.boo" />
     <Compile Include="DslContext.boo" />
     <Compile Include="DslFactory.boo" />
+    <None Include="scripts\cellar.dbc" />
     <None Include="scripts\copper.dbc" />
     <None Include="scripts\curse.dbc" />
     <None Include="scripts\estate.dbc" />
