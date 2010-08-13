@@ -48,6 +48,7 @@
     <None Include="scripts\copper.dbc" />
     <None Include="scripts\curse.dbc" />
     <None Include="scripts\estate.dbc" />
+    <None Include="scripts\market.dbc" />
     <None Include="scripts\remodel.dbc" />
     <None Include="scripts\smithy.dbc" />
     <None Include="scripts\village.dbc" />
