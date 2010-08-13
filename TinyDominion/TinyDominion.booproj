@@ -55,6 +55,7 @@
     <None Include="scripts\silver.dbc" />
     <None Include="scripts\province.dbc" />
     <None Include="scripts\duchy.dbc" />
+    <None Include="scripts\woodcutter.dbc" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="scripts" />
